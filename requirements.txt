@@ -1,0 +1,9 @@
+flask
+
+flask-mysqldb
+
+mysqlx-connector-python
+
+mysql-connector
+
+gunicorn
