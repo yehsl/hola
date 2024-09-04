@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo Flask</title>
+</head>
+<body>
+    <button onclick="bajar({{ data[0] }})">comprar</button>
+    <p>nombre: {{ data[0] }} </p>
+    <p>precio: ${{ data[1] }} </p>
+    <p>stock: {{ data[2] }} </p>
+    <a href="/">atras</a>
+    <form action="/pro" method="post">
+                <input type="hidden" name="info" value="{{ data }}">
+                <input type="hidden" name="info2" value="(1,2,3,4,5,6)">
+                <button type="submit">Com24prar</button>
+    </form>
+</body>
+</html>
