@@ -6,7 +6,7 @@ from flask_mysqldb import MySQL
 app = Flask(__name__)
 
 # Configuración de la base de datos
-app.config['MYSQL_HOST'] = 'localhost'
+app.config['MYSQL_HOST'] = 'https://hola-8bz4.onrender.com'
 app.config['MYSQL_USER'] = 'root'
 app.config['MYSQL_PASSWORD'] = '198789'  # Cambia esto a tu contraseña de MySQL
 app.config['MYSQL_DB'] = 'mydatabase'
