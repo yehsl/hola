@@ -10,7 +10,7 @@ app.config['MYSQL_HOST'] = 'localhost'
 app.config['MYSQL_USER'] = 'root'
 app.config['MYSQL_PASSWORD'] = '198789'  # Cambia esto a tu contraseña de MySQL
 app.config['MYSQL_DB'] = 'mydatabase'
-app.config['MYSQL_PORT'] = 10000  # Puerto por defecto para MySQL
+app.config['MYSQL_PORT'] = 3306 # Puerto por defecto para MySQL
 
 mysql = MySQL(app)
 #cnx = mysql.connector.connect(database='mydatabase')
